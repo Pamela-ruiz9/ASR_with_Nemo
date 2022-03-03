@@ -16,3 +16,5 @@ Las librelias necesarias serán:
 ## Datos
 Se utilizo el corpus Comon voice de mozzila  Fuente: [https://commonvoice.mozilla.org/en/datasets]
 En el idioma espanol con un total de 18GB con un total de 739 HRS de audio
+
+## Fuentes
