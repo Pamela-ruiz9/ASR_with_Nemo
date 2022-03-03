@@ -1,12 +1,12 @@
 # ASR with Nemo
-                                         ___   _______    ___       ___ 
-                                        / _ | / __/ _ \  / _ \__ __/ _ \
-                                       / __ |_\ \/ , _/ / ___/ // / ___/
-                                      /_/ |_/___/_/|_| /_/   \_, /_/    
-                                                            /___/                                                    
+                          ___   _______    ___       ___ 
+                         / _ | / __/ _ \  / _ \__ __/ _ \
+                        / __ |_\ \/ , _/ / ___/ // / ___/
+                       /_/ |_/___/_/|_| /_/   \_, /_/    
+                                             /___/                                                    
 
-                               INST. DE INV. EN MATEMATICAS APLICADAS Y SISTEMAS
-                            Desarrollo de sistemas inteligentes usando deep learning
+                   INST. DE INV. EN MATEMATICAS APLICADAS Y SISTEMAS
+               Desarrollo de sistemas inteligentes usando deep learning
 
 
 
