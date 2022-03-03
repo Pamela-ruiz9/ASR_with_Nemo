@@ -24,7 +24,21 @@ Las librelias necesarias serán:
 ## Instalación de Nemo
 
 ## Datos
-Se utilizo el corpus Comon voice de mozzila  Fuente: [https://commonvoice.mozilla.org/en/datasets]
-En el idioma espanol con un total de 18GB con un total de 739 HRS de audio
+Se utilizÓ el corpus Common voice de mozzila  Fuente: [https://commonvoice.mozilla.org/en/datasets]
+En el idioma español con un total de 18GB con las siguientes caracteristicas:
+- Total de horas: 739 HRS de audio.
+- Número de voces: 79,398
+- Edades: ( < 19  ) 6%
+          (19 - 29) 24% 
+          (30 - 39) 13%  
+          (40 - 49) 10%
+          (50 - 59) 4%
+          (60 - 69) 4%
+          (70 - 79) 1%
+- Género: Masculino 46%
+          Femenino  16%
+
+ 
+Female
 
 ## Fuentes
