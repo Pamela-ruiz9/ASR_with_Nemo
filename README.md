@@ -1,5 +1,5 @@
 # ASR with Nemo
-                                                  ___   _______    ___       ___ 
+                                                 ___   _______    ___       ___ 
                                                 / _ | / __/ _ \  / _ \__ __/ _ \
                                                / __ |_\ \/ , _/ / ___/ // / ___/
                                               /_/ |_/___/_/|_| /_/   \_, /_/    
@@ -8,6 +8,7 @@
 
                                             INST. DE INV. EN MATEMATICAS APLICADAS Y SISTEMAS
                                         Desarrollo de sistemas inteligentes usando deep learning
+
 
 
 En este repositorio encontraras los pasos y archivos necesarios para entrenar un modelo de Reconocimiento de voz.
