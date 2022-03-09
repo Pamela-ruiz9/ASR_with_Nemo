@@ -1,0 +1,46 @@
+# ----------------------------------------------------------------------------------------------------------------------------------------------
+#                                                  ___   _______    ___       ___ 
+#                                                / _ | / __/ _ \  / _ \__ __/ _ \
+#                                               / __ |_\ \/ , _/ / ___/ // / ___/
+#                                              /_/ |_/___/_/|_| /_/   \_, /_/    
+#                                                                    /___/                                                    
+# 
+#                                            INST. DE INV. EN MATEMATICAS APLICADAS Y SISTEMAS
+#                                        Desarrollo de sistemas inteligentes usando deep learning
+# ----------------------------------------------------------------------------------------------------------------------------------------------
+
+#       Autores:  - Adolfo Patricio Barrero Olguin
+#                 - Ingrid Pamela Ruiz Puga
+
+#       Actualizacion : Marzo 2022
+
+#-----------------------------------------------------------------------------------------------------------------
+#                           Comandos instalacion Nemo 
+#-----------------------------------------------------------------------------------------------------------------
+'''Probe estos comandos y al final me permite utillizar librerias de Nemo e instancie un modelo pero no he corrido 
+un ejemplo en el GPU de Paris '''
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+sh Miniconda3-latest-Linux-x86_64.sh
+
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+
+pt-get update && apt-get install -y libsndfile1 ffmpeg
+
+conda install Cython
+
+pip install nemo_toolkit['all'] #se puede intentar con pip
+
+conda install -c bioconda nemo     #Se puede intentar con conda
+conda install -c bioconda/label/cf201901 nemo 
+
+# Librerias dependientes 
+
+conda install librosa
+conda install soundfile
+conda install sndfile
+conda install -c conda-forge libsndfile
+conda install -c conda-forge librosa
+
+#Luego hice una prueba llamando un modelo de Nemo y funciono
