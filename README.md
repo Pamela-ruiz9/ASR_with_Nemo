@@ -57,6 +57,38 @@ En el idioma español con un total de 18GB y (130 GB en versión wav) con las si
           Femenino  16%
 
  
-Female
+## Procedimiento
+Se entrenó un Scratch model, tambien es posible observar un modelo pre-entrendado en https://github.com/patoba/reconocedor_de_voz
+
+### Preparación de los datos
+
+El corpus utilizado contiene audios en formato MP3, sin embargo será necesario pasar dichos archivos a formato WAV. 
+Para esto se puede utilizar el código *mp32wav,py*, el convierte los archivos al formato deseado.
+
+
+### Crear manifest
+
+EL modelo utiliza archivos JSON donde se debe almacenar la ingormacion de los archivos con el siguiente formato:
+
+```
+{"audio_filepath": "path/to/audio.wav", "duration": 3.45, "text": "transcript"}
+```
+
+Para crear dichos archivos de cada conjunto de datos se hará uso de la información anexada al corpus
+- train.tsv
+- test.tsv
+- dev.tsv
+
+Con el archivo *manifest.py* es posible construir todos los archivos necesaios para el entrenamiento.
+
+### Entrenamiento
+
+Será necesario colocar las rutas correspondientes a donde se encuentran los archivos wav, los manifest construidos, y el archivo de configuración.
+
+En el archivo de configuración sera posible cambiar algunos hyperparametros y los recursos de cómputo a utilizar.
+
+Para el entrenamiento será necesario utilizar el código nemo_training_mod.py
 
 ## Fuentes
+- https://github.com/cadia-lvl/samromur-asr/tree/n5_samromur/n5_samromur
+- https://github.com/NVIDIA/NeMo
