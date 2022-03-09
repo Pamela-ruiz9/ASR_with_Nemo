@@ -94,3 +94,7 @@ Se recomienda el siguiente notebook: https://github.com/NVIDIA/NeMo/blob/main/tu
 ## Fuentes
 - https://github.com/cadia-lvl/samromur-asr/tree/n5_samromur/n5_samromur
 - https://github.com/NVIDIA/NeMo
+- https://www.pytorchlightning.ai/blog/train-conversational-ai-in-3-lines-of-code-with-nemo-and-lightning
+- https://developer.nvidia.com/blog/jump-start-training-for-speech-recognition-models-with-nemo/
+
+
