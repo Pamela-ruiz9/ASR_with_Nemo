@@ -89,6 +89,8 @@ En el archivo de configuración sera posible cambiar algunos hyperparametros y l
 
 Para el entrenamiento será necesario utilizar el código nemo_training_mod.py
 
+Se recomienda el siguiente notebook: https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/ASR_with_NeMo.ipynb
+
 ## Fuentes
 - https://github.com/cadia-lvl/samromur-asr/tree/n5_samromur/n5_samromur
 - https://github.com/NVIDIA/NeMo
