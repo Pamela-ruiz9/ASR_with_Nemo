@@ -25,8 +25,8 @@ Las librelias necesarias serán:
 
 Es necesario tener instalado Python 3, y posteriormente la instalacion general de Nemo es: 
   
-  $ pip install Cython
-  $ pip install nemo_toolkit['all']
+  	$ pip install Cython
+  	$ pip install nemo_toolkit['all']
   
 Tambien será necesario Pytorch y en especifico 
  
@@ -53,7 +53,7 @@ En el idioma español con un total de 18GB y (130 GB en versión wav) con las si
           (70 - 79) 1%
           
 - Género: Masculino 46%
--
+
           Femenino  16%
 
  
